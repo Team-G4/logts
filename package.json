@@ -1,0 +1,16 @@
+{
+  "name": "@gfour/logts",
+  "version": "0.0.1",
+  "description": "An implementation of MicroLogger inside of Typescript",
+  "main": "out/test/app.js",
+  "repository": "https://gitlab.com/gfour/logts.git",
+  "author": "Quinn Lane <hello@quinnlane.dev>",
+  "license": "BSD-3-Clause",
+  "type": "module",
+  "dependencies": {
+    "chalk": "4.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}
