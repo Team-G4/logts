@@ -2,15 +2,44 @@
   "name": "@gfour/logts",
   "version": "0.0.1",
   "description": "An implementation of MicroLogger inside of Typescript",
-  "main": "out/test/app.js",
+  "main": "out/esm/test/app.js",
   "repository": "https://gitlab.com/gfour/logts.git",
-  "author": "Quinn Lane <hello@quinnlane.dev>",
+  "author": {
+    "name": "The G4 Development Team"
+  },
+  "contributors": [
+    {
+      "name": "Quinn Lane",
+      "email": "hello@quinnlane.dev"
+    }
+  ],
+  "bugs": {
+    "email": "hello@quinnlane.dev",
+    "url": "https://gitlab.com/gfour/logts/-/issues"
+  },
   "license": "BSD-3-Clause",
   "type": "module",
+  "publishConfig": {
+    "@gfour:registry": "https://gitlab.com/api/v4/projects/33359583/packages/npm/"
+  },
   "dependencies": {
     "chalk": "4.1.2"
   },
   "devDependencies": {
+    "concurrently": "^7.0.0",
+    "prettier": "^2.5.1",
+    "prettier-config-standard": "^4.0.0",
     "typescript": "^4.5.5"
-  }
+  },
+  "scripts": {
+    "build": "concurrently --names \"Build ESM,Build CJS\" --prefix-colors \"yellow,blue\" \"tsc --outDir out/esm/ --module esnext\" \"tsc --outDir out/cjs/ --module commonjs\"",
+    "test": "yarn node ."
+  },
+  "packageManager": "yarn@3.1.1",
+  "exports": {
+    "import": "./out/esm/main.js",
+    "require": "./out/cjs/main.js"
+  },
+  "types": "types/",
+  "prettier": "prettier-config-standard"
 }

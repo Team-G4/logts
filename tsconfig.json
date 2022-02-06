@@ -1,8 +1,6 @@
 {
   "compilerOptions": {
-    "module": "ESNext",
     "target": "ESNext",
-    "outDir": "out/",
     "lib": [
       "ESNext",
       "ESNext.Array",
@@ -20,11 +18,15 @@
     "pretty": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "typeRoots": [
+      "types/**/*"
+    ]
   },
 
   "include": [
-    "src/**/*"
+    "src/**/*",
+    "types/**/*"
   ],
 
   "exclude": [
