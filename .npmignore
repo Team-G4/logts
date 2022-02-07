@@ -120,3 +120,4 @@ src/
 .dcignore
 CODE_OF_CONDUCT.md
 CONTRIBUTING.md
+.yarn/
