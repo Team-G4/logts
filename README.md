@@ -1,6 +1,6 @@
 # log.ts
 
-An implementation of [MicroLogger](https://gitlab.com/tesseractge/MicroLogger) in Typescript that can be ran in Node.js or Deno'
+An implementation of [MicroLogger](https://gitlab.com/tesseractge/MicroLogger) in Typescript that can be ran in Node.js or Deno (Coming Soon)
 
 ### For anyone looking at this project on GitHub, it is an unmonitored mirror. The real project is hosted on [GitLab](https://gitlab.com/gfour/logts)
 
@@ -26,7 +26,7 @@ If you are not a legal expert, [TL;DRLegal](https://tldrlegal.com/license/bsd-3-
 
 ## Installation
 
-We provide installations for both Node.js and Deno
+We provide installations for both Node.js and Deno (Coming Soon)
 
 ### Node.js
 
@@ -129,7 +129,7 @@ log(loggerLevel.FATAL, "This is a log entry with the severity level 'FATAL'")
 
 ## Documentation
 
-You can find more detailed information on our [documentation](https://gitlab.com/gfour/logts/-/wikis/home) (coming soon).
+You can find more detailed information on our [documentation](https://gitlab.com/gfour/logts/-/wikis/home).
 
 ## Support
 
