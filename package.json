@@ -1,6 +1,6 @@
 {
   "name": "@gfour/logts",
-  "version": "1.0.1-rc5",
+  "version": "1.0.1",
   "description": "An implementation of MicroLogger inside of Typescript",
   "main": "out/esm/main.js",
   "repository": "https://gitlab.com/gfour/logts.git",
