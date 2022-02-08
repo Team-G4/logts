@@ -18,17 +18,11 @@
     "pretty": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "strictNullChecks": true,
-    "typeRoots": [
-      "types/**/*"
-    ]
+    "strictNullChecks": true
   },
-
   "include": [
-    "src/**/*",
-    "types/**/*"
+    "src/**/*"
   ],
-
   "exclude": [
     "node_modules"
   ]

@@ -1,8 +1,8 @@
 {
   "name": "@gfour/logts",
-  "version": "1.0.0",
+  "version": "1.0.1-rc5",
   "description": "An implementation of MicroLogger inside of Typescript",
-  "main": "out/esm/test/app.js",
+  "main": "out/esm/main.js",
   "repository": "https://gitlab.com/gfour/logts.git",
   "author": {
     "name": "The G4 Development Team"
@@ -26,6 +26,7 @@
     "chalk": "4.1.2"
   },
   "devDependencies": {
+    "@skypack/package-check": "^0.2.2",
     "concurrently": "^7.0.0",
     "prettier": "^2.5.1",
     "prettier-config-standard": "^4.0.0",
@@ -40,6 +41,5 @@
     "import": "./out/esm/main.js",
     "require": "./out/cjs/main.js"
   },
-  "types": "types/",
   "prettier": "prettier-config-standard"
 }
