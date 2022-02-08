@@ -37,6 +37,7 @@
     "test": "yarn node ."
   },
   "packageManager": "yarn@3.1.1",
+  "types": "./typings/main.d.ts",
   "exports": {
     "import": "./out/esm/main.js",
     "require": "./out/cjs/main.js"

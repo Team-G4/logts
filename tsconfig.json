@@ -18,10 +18,14 @@
     "pretty": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "typeRoots": [
+      "typings/**/*"
+    ]
   },
   "include": [
-    "src/**/*"
+    "src/**/*",
+    "typings/**/*"
   ],
   "exclude": [
     "node_modules"
